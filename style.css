@@ -464,6 +464,10 @@ nav.show div.icon-close {
 #testimonials .container {
   margin-left: 0;
   margin-right: 0;
+
+  margin: inherit auto;
+  position: relative;
+  overflow: hidden;
 }
 
 #testimonials header {
@@ -615,6 +619,10 @@ aside.to-top a {
   clip-path: circle();
   border: none;
   border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 aside.to-top a i {
